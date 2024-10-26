@@ -30,6 +30,7 @@ dotenv.config({path: `${__dirname}/../../.env`});
 const sql = `INSERT INTO ${this.tableName}
             (email, password, country, invite_code, role) VALUES (?,?,?,?,?)`;
 ```
+### Modified the .env inside backend directory to send email from gmail
 ## Frontend changes includes
 1. Created a component to display username
 2. Added a menu to wallet page to display username
