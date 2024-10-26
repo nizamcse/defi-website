@@ -13,6 +13,10 @@ npm run dev
 ```
 
 ## What are the changes
+### Replaced the API endpoint
+```
+export const SERVER_URL = "http://localhost:5000/api/"
+```
 ### inside the project directory package.json I have changed the script 
 ```
 "server": "cd backend && npm start"
